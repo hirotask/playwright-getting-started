@@ -10,3 +10,8 @@
 
 - Node.js >= v20.12.0
 - npm >= 10.5.0
+
+### 環境構築
+
+1. `npx playwright install-deps` を実行してOSに依存するライブラリを手動でインストールします
+2. `npm run test:e2e` を実行してテストを実行します。
