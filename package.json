@@ -1,0 +1,16 @@
+{
+  "name": "playwright-getting-started",
+  "version": "1.0.0",
+  "description": "このリポジトリはE2Eテストツールである[Playwright](https://playwright.dev/) を実際に触って楽しむために作成されました。",
+  "main": "index.js",
+  "scripts": {
+	"test:e2e": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.1",
+    "@types/node": "^22.5.5"
+  }
+}
